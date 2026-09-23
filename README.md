@@ -61,7 +61,7 @@ Agente_EDA/
 
 **1. Clonar el repositorio**
 ```bash
-git clone <url-del-repo>
+git clone <https://github.com/CristianRiquelmeF/Agente-Autonomo-EDA>
 cd Agente_EDA
 ```
 
