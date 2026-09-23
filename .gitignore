@@ -1,0 +1,23 @@
+# Seguridad y entorno local
+.env
+venv/
+.venv/
+env/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Datos y artefactos generados (evita subir archivos pesados o resultados de ejecución)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
