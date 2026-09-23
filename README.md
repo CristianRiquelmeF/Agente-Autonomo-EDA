@@ -31,6 +31,10 @@ A diferencia de pedirle a un LLM genérico que "analice datos" (lo cual a menudo
 
 ![Generación autónoma de Matriz de Correlación](assets/demo_eda_2.png)
 
+### **Ejemplo de informe generado** ###
+
+![Generación autónoma informe](assets/demo_eda_3.png)
+
 
 ## Arquitectura del proyecto
 
