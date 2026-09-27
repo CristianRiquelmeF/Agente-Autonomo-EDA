@@ -115,6 +115,9 @@ Este proyecto fue probado deliberadamente contra sus propios puntos débiles. Do
 - **Seguridad de rutas:** el código usa `os.path.basename` para mitigar path traversal, impidiendo que la IA o el usuario lean/escriban fuera de `data/raw/` y `data/processed/`. No es un sandbox completo ni está pensado para exponerse a usuarios no confiables en producción.
 - **Sobrescritura intencional:** recargar el mismo dataset y pedir un nuevo gráfico o reporte sobrescribe la versión anterior dentro de su propia subcarpeta — es el comportamiento esperado para un flujo de trabajo iterativo, no un bug.
 
+---
+
 ## Autor
 
 Cristian Riquelme — [GitHub: CristianRiquelmeF](https://github.com/CristianRiquelmeF)
+Sociólogo y Analista de Datos/BI.
